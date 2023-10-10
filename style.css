@@ -1,0 +1,26 @@
+body {
+    background-color: slateblue;
+}
+header {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.start-btn1 {
+    border: none;
+    background-color: hsl(360, 91%, 36%);
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    line-height: 22px;
+    margin: 16px 16px 16px 20px;
+    padding: 14px 34px;
+    cursor: pointer;
+}
+
+#buttonDiv {
+    position: relative;
+    text-align: center;
+}
+
