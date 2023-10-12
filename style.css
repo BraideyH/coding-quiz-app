@@ -6,8 +6,10 @@ header {
     font-size: 25px;
     color: white;
     text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
 }
-.start-btn1 {
+#start-btn {
     border: none;
     background-color: hsl(360, 91%, 36%);
     border-radius: 25px;
@@ -19,8 +21,18 @@ header {
     cursor: pointer;
 }
 
-#buttonDiv {
+.buttonDiv {
     position: relative;
     text-align: center;
 }
-
+#high-score-btn {
+    border: none;
+    background-color: hsl(360, 91%, 36%);
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    line-height: 22px;
+    margin: 16px 16px 16px 20px;
+    padding: 14px 34px;
+    cursor: pointer;
+}
