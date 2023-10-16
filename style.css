@@ -9,14 +9,14 @@ header {
     margin-left: 30px;
     margin-right: 30px;
 }
-#start-btn {
+.button {
     border: none;
-    background-color: hsl(360, 91%, 36%);
-    border-radius: 25px;
-    color: hsl(0, 0%, 100%);
-    font-size: 22px;
-    line-height: 22px;
-    margin: 16px 16px 16px 20px;
+    background-color: #ff552f;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+    line-height: 20px;
+    margin: 18px;
     padding: 14px 34px;
     cursor: pointer;
 }
@@ -25,14 +25,43 @@ header {
     position: relative;
     text-align: center;
 }
-#high-score-btn {
+.hide {
+    display: none;
+}
+
+#questionsDiv {
+    padding-top: 20px;
+    display:flexbox;
+    overflow: hidden;
+}
+#questions {
+    font-size: 30px;
+    text-align: center;
+    color: white;
     border: none;
-    background-color: hsl(360, 91%, 36%);
-    border-radius: 25px;
-    color: hsl(0, 0%, 100%);
-    font-size: 22px;
-    line-height: 22px;
-    margin: 16px 16px 16px 20px;
-    padding: 14px 34px;
+    background-color: #1a3d00;
+    border-radius: 20px;
+    line-height: 20px;
+    margin: auto;
+    padding: 25px 0 25px 0;
     cursor: pointer;
 }
+#answers {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 45px;
+}
+#scoreCount {
+    padding-top: 5px;
+}
+/* .btn {
+    border: none;
+    background-color: #ff9f8a;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 18px;
+    padding: 14px 34px;
+    cursor: pointer;
+} */

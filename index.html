@@ -10,20 +10,25 @@
     <header>
         <h1>Coding Quiz</h1>
         <div id="timer">Time Left:<span id="timerValue"></span></div>
-        <div class="beg-text">
+        <div id="scoreCount">Score:<span id="scoreCountValue">0</span></div>
+        <div class="begText">
             <h2>Test your knowledge and race against the clock in this coding quiz!</h2>
             <h4>You will have 40 seconds to answer as many questions about HTML, CSS, and JavaScript as you can.</h4>
         </div>
     </header>
-    <main class="beg-text">
+    <main class="main">
         <div class="buttonDiv">
-         <button id="start-btn">Start!</button>
+         <button class="button">Start!</button>
         </div>
      <div class="buttonDiv">   
-         <button id="high-score-btn">View High Scores</button>
+         <button class="button">View High Scores</button>
         </div>
     </main>
+    <div id="questionsDiv">
+    <h3 id="questions"></h3>
+    </div>
+    <ul id="answers"></ul>
        
-    
+    <script src="script.js"></script>
 </body>
 </html>
