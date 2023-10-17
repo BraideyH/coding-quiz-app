@@ -5,8 +5,13 @@ const buttonDivEl = document.querySelector(".buttonDiv");
 var mainEl = document.querySelector(".main");
 var questionsEl = document.querySelector("#questions");
 var answersEl = document.querySelector("#answers");
-var scoreEl = document.querySelector("#scoreCountValue");
 questionsEl.style.display = "none";
+// var responseEl = document.querySelector("#response")
+const userScoreEl = document.querySelector("#scoreCountValue");
+var scoreStorage = localStorage.setItem("scores", score);
+userScoreEl.textContent = scoreStorage;
+const userScores = localStorage.getItem("scores") || [];
+var score = 0;
 
 var questions = [
     {
@@ -103,7 +108,6 @@ var questions = [
 
 let quizQuestionIndex = 0;
 var timeLeft = 40;
-let score = 0;
 
 
 startBtnEl.addEventListener("click", function () {
@@ -155,6 +159,7 @@ answersEl.addEventListener("click", function(e) {
 
     if (correctAnswers === "true") {
         answersEl.textContent = "Correct!";
+        score ++;
     } else if (correctAnswers === null) {
         return;
     } else {

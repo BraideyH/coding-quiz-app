@@ -50,18 +50,43 @@ header {
     font-size: 18px;
     text-align: center;
     padding-top: 45px;
+    color: white;
+    
 }
 #scoreCount {
     padding-top: 5px;
 }
-/* .btn {
+#backBtn {
     border: none;
-    background-color: #ff9f8a;
+    background-color: #ff552f;
     border-radius: 20px;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 20px;
     margin: 18px;
     padding: 14px 34px;
     cursor: pointer;
-} */
+}
+#backBtnDiv {
+    text-align: center;
+    padding-top: 300px;
+}
+#backBtn a {
+    text-decoration: none;
+    color: white;
+}
+#highScoreBtnDiv {
+    text-align: center;
+    padding-top: 20px;
+}
+#highScoreBtn {
+    border: none;
+    background-color: #ff552f;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+    line-height: 20px;
+    margin: 18px;
+    padding: 14px 34px;
+    cursor: pointer;
+}
