@@ -8,6 +8,8 @@ In this webpage, it was my goal to create a coding quiz to be ran in the browser
 
 To install and run this application, the user must clink on the live URL and ensure that their machine meets basic browser specifications.
 
+Live URL: https://braideyh.github.io/coding-quiz-app/
+
 ## Usage
 
 This application can be used to study basic coding material in an environment that rewards quick thinking. 
